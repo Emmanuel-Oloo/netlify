@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Travel Guide</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="shortcut icon" href="/image/tras.png" type="image/x-icon">
+        <link rel = "stylesheet" href = "font/fonts.css">
+        <link rel = "stylesheet" href = "style.css">
+    </head>
+    <body>
+        <nav class = "navbar">
+            <div class = "container flex">
+                <a href = "index.html" class = "site-brand">
+                    Travel<span>Guide</span>
+                </a>
+
+                <div id = "navbar-collapse">
+                    <ul class = "navbar-nav">
+                        <li class = "nav-item">
+                            <a href = "#" target="new"class = "nav-link">Home</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "#" class = "nav-link">Gallery</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "#" class = "nav-link">Blog</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "#" class = "nav-link">About</a>
+                        </li>
+                        <li class = "nav-item ">
+                            <button class="btnOne"><a href = "#" class = "nav-link sign"  onclick="checkLoginState();">Sign In</a></button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <header class = "flex">
+            <div class = "container">
+                <div class = "header-title">
+                    <h1>Travel to the World</h1>
+                    <p><span style="font-size: 21px; font-weight: bold;">Get to the best places in the World:</span> eg. Dubai, United Arab Emirates, France. </p>     
+                </div>
+                <div class = "header-form">
+                    <h2>Choose your Travel location:</h2>
+                    <form class = "flex">
+                        <input type = "text" id="search-input" class = "form-control" placeholder="Destination name">
+                    </form>
+                </div>
+            </div>
+        </header>
+        
+        <section id = "services" class = "service">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <span class = "sm-title">Know About Services We Offer</span>
+                    <h2 class = "lg-title">Our services</h2>
+                </div>
+
+                <div class = "services-row">
+                    <div class = "services-item">
+                        <span class = "services-icon">
+                            <i class = "fas fa-hotel"></i>
+                        </span>
+                        <h3>Luxurious Hotel</h3>
+                        <p class = "text">Get the best hotel services with the best food available and confortability is their number one priority.</p>
+                        <a href = "#" class = "btn">Read more</a>
+                    </div>
+
+                    <div class = "services-item">
+                        <span class = "services-icon">
+                            <i class = "fas fa-map-marked-alt"></i>
+                        </span>
+                        <h3>Travel Guide</h3>
+                        <p class = "text">Never get lost when travelling. Have travel guide to show you which way to go even if you do not know the place.</p>
+                        <a href = "#" class = "btn">Read more</a>
+                    </div>
+
+                    <div class = "services-item">
+                        <span class = "services-icon">
+                            <i class = "fas fa-money-bill"></i>
+                        </span>
+                        <h3>Suitable Price</h3>
+                        <p class = "text">Travelling with the minimum cost anywhere you want. Suitable prices everywhere you want to travel to will make you visit places of your dream with minimal costs.</p>
+                        <a href = "#" class = "btn">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src = "script.js"></script>
+    </body>
+</html>
